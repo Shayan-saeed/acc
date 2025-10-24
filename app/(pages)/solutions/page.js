@@ -70,7 +70,7 @@ const containerVariants = {
 
 export default function SolutionsSection() {
   return (
-    <section className="py-16 bg-gray-50 my-16">
+    <section className="py-16 bg-gray-50 my-16 mt-32">
       <div className="max-w-6xl mx-auto px-6 space-y-20">
         {solutions.map((item, index) => (
           <motion.div

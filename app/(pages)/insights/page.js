@@ -24,7 +24,7 @@ const fadeUp = {
 
 export default function InsightsPage() {
   return (
-    <div className="bg-gray-50 min-h-screen py-20 my-20">
+    <div className="bg-gray-50 min-h-screen py-20 my-20 mt-32">
       {/* Hero Section */}
       <div className="text-center mb-16 px-4">
         <motion.h1

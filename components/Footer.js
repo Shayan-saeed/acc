@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Logo + Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <Image src="/acc-new.png" alt="Company Logo" width={48} height={48} className="w-15 h-15"/>
+              {/* <Image src="/acc.png" alt="Company Logo" width={48} height={48} className="w-15 h-15"/>s */}
               <span className="font-orbitron text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                 American Configurators Company
               </span>

@@ -32,6 +32,7 @@ export default function NavBar() {
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ease-out ${
         scrollDir === 'down' ? '-translate-y-full' : 'translate-y-0'
       }`}
+      style={{marginTop:"-30px"}}
     >
       <div
         className={`relative transition-all duration-300 ${
@@ -46,18 +47,20 @@ export default function NavBar() {
       >
         <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-secondary/5 opacity-50"></div>
 
-        <div className="relative flex items-center justify-between px-6 lg:px-8 py-4 max-w-7xl mx-auto">
+        <div className="relative flex items-center justify-between px-6 lg:px-8 max-w-7xl mx-auto">
           <Link
               href="/" 
               className="group flex items-center gap-3 font-orbitron text-md sm:text-xl text-text-primary font-bold tracking-wide transition-all duration-300 hover:scale-105"
             >
               <Image 
-                src="/2.svg" 
+                src="/finalfinallogo.svg" 
                 alt="Company Logo" 
-                width={40} 
-                height={40} 
-                className="w-30 h-30"
+                width={50} 
+                height={50} 
+                className="w-auto"
+
               />
+              
               {/* <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                 AMERICAN CONFIGURATORS COMPANY
               </span> */}
